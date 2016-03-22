@@ -1,0 +1,9 @@
+SOLID 원칙
+S (SRP : Single responsibility principle) ? 한 클래스는 하나의 책임만 가져야 하고, 클래스는 그 책임을 완전히 캡슐화해야 함을 일컫는다.
+O (OCP : Open/closed principle) ? “소프트웨어 개체(클래스, 모듈, 함수 등)는 확장에 대해 열려 있어야 하고, 수정에 대해서는 닫혀 있어야 한다.”는 프로그래밍 원칙이다.
+->인터페이스로 프로그래밍하며, 모든 함수를 다 가진 클래스가 존재
+L (LSP : Liskov substitution principle) ? 자료형 S가 자료형 T의 하위형이라면, 프로그램에서 자료형 T의 객체는 프로그램의 속성을 변경하지 않고 자료형 S의 객체로 교체할 수 있다.
+I (ISP : Interface segregation principle) ? 클라이언트가 자신이 이용하지 않는 메서드에 의존하지 않아야 한다는 원칙이다.
+
+D (DIP : Dependency inversion principle) ? 소프트웨어 모듈들을 분리하는 특정 형식을 지칭한다.
+-> interface사용하여 comparator구현한다.
