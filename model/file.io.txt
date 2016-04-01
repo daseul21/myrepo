@@ -1,0 +1,27 @@
+@startuml
+title file.io
+class InputStream {
+  +abstract read():int
+}
+class OutputStream{
+    +abstract out():int
+}
+OutputStream <|-- FileOutputStream
+OutputStream <|-- ByteArrayOutputStream
+OutputStream <|-- StringBufferOutputStream
+OutputStream <|-- FilterOutputStream
+FilterOutputStream *-- OutputStream
+FilterOutputStream <|-- LineNumberOutputStream
+FilterOutputStream <|-- PushbackOutputStream
+FilterOutputStream <|-- BufferedOutputStream
+FilterOutputStream <|-- DataOutputStream
+InputStream <|-- FileInputStream
+InputStream <|-- ByteArrayInputStream
+InputStream <|-- StringBufferInputStream
+InputStream <|-- FilterInputStream
+FilterInputStream *-- InputStream
+FilterInputStream <|-- LineNumberInputStream
+FilterInputStream <|-- PushbackInputStream
+FilterInputStream <|-- BufferedInputStream
+FilterInputStream <|-- DataInputStream
+@enduml
