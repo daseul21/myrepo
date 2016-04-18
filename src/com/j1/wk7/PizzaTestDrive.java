@@ -4,7 +4,7 @@ public class PizzaTestDrive{
   public static void main(String[] args){
     Pizza pizza = null;
     PizzaStore chicagoStore = new ChicagoPizzaStore();
-    ChicagoStore.orderPizza("cheese");
+    pizza = chicagoStore.orderPizza("cheese");
     pizza.prepare();
     
   }
