@@ -1,0 +1,14 @@
+package com.j1.wk10.macro;
+
+public class LightOffCommand implements Command{
+  private Light light;
+  int level;
+  public void LightOnCommand(Light light){
+    this.light = light;
+  }
+  public void execute(){
+    level = light.getLevel;
+    light.on();
+  }
+  //public void undo()
+}

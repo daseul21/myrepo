@@ -1,0 +1,7 @@
+package com.j1.wk10.macro;
+
+public class RemoteLoader{
+  public static void main(String[] args){
+  
+  }
+}
