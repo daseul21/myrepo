@@ -1,0 +1,13 @@
+package com.j1.wk12.caramel;
+
+public class BeverageTestDrive{
+  public static void main(String[] args){
+    Coffee coffee = new Coffee();
+    System.out.println("Making coffee...");
+    coffee.prepareRecipe();
+    
+   CoffeeWithHook coffeeHook = new CoffeeWithHook();
+   System.out.println("\n making caramel machiato");
+   coffeeHook.prepareRecipe();
+  }
+}
