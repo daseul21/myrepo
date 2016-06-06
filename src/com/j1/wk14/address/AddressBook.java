@@ -1,0 +1,31 @@
+package com.j1.wk14.address;
+
+public class AddressBook{
+  private String name;
+  private int phone;
+  private String address;
+  
+  AddressBook(String name, int phone, String address){
+    this.name=name;
+    this.phone=phone;
+    this.address=address;
+  }
+  public String getName(){
+    return name;
+  }
+  public void setName(String name){
+    this.name=name;
+  }
+  public int getPhone(){
+    return phone;
+  }
+  public void setPhone(int phone){
+    this.phone=phone;
+  }
+  public String getAddress(){
+    return address;
+  }
+  public void setAddress(String address){
+    this.address=address;
+  }
+}
